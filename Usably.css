@@ -2,7 +2,7 @@ html {
   font-family: 'Anonymous Pro';
   font-size: 14px;
   background-color: #000;
-  color: #f0f0f0;
+  color: #ddd;
 }
 body {}
 
@@ -18,7 +18,7 @@ body {}
 .line {padding-bottom: 1px; clear: left; line-height: 1.3em;}
 .line[alternate=even] {}
 .line[alternate=odd] {}
-.line[highlight=true] {background: #333;}
+.line[highlight=true] {background: #444;}
 
 .line[type=action] .sender:before {
   content: "★ ";
@@ -84,7 +84,7 @@ body.normal .message {
 .message[type=system], .message[type=join], .message[type=part], .message[type=kick],
 .message[type=quit], .message[type=kill], .message[type=nick], .message[type=mode],
 .message[type=topic], .message[type=invite], .message[type=wallops] {
-  color: #65b042;
+  color: #333;
 }
 .message[type=reply] { color: #509036; }
 
